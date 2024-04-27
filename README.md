@@ -11,6 +11,7 @@ The example given in the source texts demonstrates how the current height of the
 
 ```javascript
 import { useEffect, useRef } from "react";
+import Navbar from "react-bootstrap/Navbar";
 
 const BasicExample = observer(() => {
   const refNav = useRef(null);
